@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Kworks AI">
+  <defs>
+    <linearGradient id="bg-kworks-ai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <radialGradient id="glow-a-kworks-ai" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b-kworks-ai" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text-kworks-ai" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <pattern id="grid-kworks-ai" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg-kworks-ai)"/>
+  <rect width="1200" height="630" fill="url(#grid-kworks-ai)"/>
+  <circle cx="200" cy="120" r="380" fill="url(#glow-a-kworks-ai)"/>
+  <circle cx="1030" cy="540" r="340" fill="url(#glow-b-kworks-ai)"/>
+
+  <g opacity="0.5" stroke="#67e8f9" stroke-opacity="0.35" fill="none">
+    <path d="M880 150 L980 210 L980 330 L880 390 L780 330 L780 210 Z" stroke-width="1.5"/>
+    <path d="M880 150 L880 270 M880 270 L980 330 M880 270 L780 330" stroke-width="1"/>
+    <circle cx="880" cy="150" r="7" fill="#22d3ee" stroke="none"/>
+    <circle cx="980" cy="210" r="5" fill="#67e8f9" stroke="none"/>
+    <circle cx="980" cy="330" r="5" fill="#67e8f9" stroke="none"/>
+    <circle cx="880" cy="390" r="5" fill="#67e8f9" stroke="none"/>
+    <circle cx="780" cy="330" r="5" fill="#67e8f9" stroke="none"/>
+    <circle cx="780" cy="210" r="5" fill="#67e8f9" stroke="none"/>
+    <circle cx="880" cy="270" r="9" fill="#6366f1" stroke="none"/>
+  </g>
+
+  <g>
+    <rect x="72" y="72" width="86" height="86" rx="22" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="115" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="30" font-weight="700" fill="#67e8f9" text-anchor="middle">KA</text>
+  </g>
+
+  <text x="72" y="300" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.5" fill="url(#text-kworks-ai)">Kworks AI</text>
+  <text x="72" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" fill="#94a3b8">Prompt Orchestration Service</text>
+  <rect x="72" y="392" width="120" height="4" rx="2" fill="#22d3ee" fill-opacity="0.8"/>
+</svg>
