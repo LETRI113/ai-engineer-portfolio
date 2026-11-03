@@ -1,0 +1,73 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+# Coding agents: generated or project-local configuration
+.claude/
+.mcp.json
+CLAUDE.md
+AGENTS.md
+.playwright-mcp/
+.gstack/
+.impeccable/
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.vite/
+.turbo/
+*.tsbuildinfo
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+# Java / JVM
+.gradle/
+target/
+*.class
+# Go
+bin/
+*.test
+coverage.out
+# Rust
+
+# Local credentials and generated output
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+coverage/
+.cache/
+.vercel/
+.repo-pattern/
+
+# Private source documents, proxy lists and browser QA captures
+/proxi.txt
+/CV_*
+/portfolio-*.png
+/portfolio-*.yml
+
+# Unapproved template assets: keep locally, do not publish
+/ai-engineer-portfolio/public/Asanka_Wijesooriya_AI_Engineer_Resume.pdf
+/ai-engineer-portfolio/public/certificates/
+/ai-engineer-portfolio/public/thumbnails/ai-researchpro.svg
+/ai-engineer-portfolio/public/thumbnails/house-price-predictor.svg
+/ai-engineer-portfolio/public/thumbnails/smart-shop-ai-agent.svg
+/ai-engineer-portfolio/public/thumbnails/tripmate-ai.svg

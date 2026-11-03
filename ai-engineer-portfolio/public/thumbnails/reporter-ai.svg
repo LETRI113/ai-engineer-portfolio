@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Reporter AI">
+  <defs>
+    <linearGradient id="bg-reporter-ai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <radialGradient id="glow-a-reporter-ai" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b-reporter-ai" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="text-reporter-ai" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fcd34d"/>
+    </linearGradient>
+    <pattern id="grid-reporter-ai" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg-reporter-ai)"/>
+  <rect width="1200" height="630" fill="url(#grid-reporter-ai)"/>
+  <circle cx="200" cy="120" r="380" fill="url(#glow-a-reporter-ai)"/>
+  <circle cx="1030" cy="540" r="340" fill="url(#glow-b-reporter-ai)"/>
+
+  <g opacity="0.5" stroke="#fcd34d" stroke-opacity="0.35" fill="none">
+    <path d="M880 150 L980 210 L980 330 L880 390 L780 330 L780 210 Z" stroke-width="1.5"/>
+    <path d="M880 150 L880 270 M880 270 L980 330 M880 270 L780 330" stroke-width="1"/>
+    <circle cx="880" cy="150" r="7" fill="#fbbf24" stroke="none"/>
+    <circle cx="980" cy="210" r="5" fill="#fcd34d" stroke="none"/>
+    <circle cx="980" cy="330" r="5" fill="#fcd34d" stroke="none"/>
+    <circle cx="880" cy="390" r="5" fill="#fcd34d" stroke="none"/>
+    <circle cx="780" cy="330" r="5" fill="#fcd34d" stroke="none"/>
+    <circle cx="780" cy="210" r="5" fill="#fcd34d" stroke="none"/>
+    <circle cx="880" cy="270" r="9" fill="#f43f5e" stroke="none"/>
+  </g>
+
+  <g>
+    <rect x="72" y="72" width="86" height="86" rx="22" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <text x="115" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="30" font-weight="700" fill="#fcd34d" text-anchor="middle">RA</text>
+  </g>
+
+  <text x="72" y="300" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="700" letter-spacing="-1.5" fill="url(#text-reporter-ai)">Reporter AI</text>
+  <text x="72" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" fill="#94a3b8">GitLab Review Infrastructure</text>
+  <rect x="72" y="392" width="120" height="4" rx="2" fill="#fbbf24" fill-opacity="0.8"/>
+</svg>
